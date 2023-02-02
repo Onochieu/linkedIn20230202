@@ -14,3 +14,12 @@ Replace <Username> with your Github username, <PAT> with your personal access to
 
 Link your local repository to the remote repository on Github using git remote add origin https://github.com/<Username>/<RepositoryName>.git
 Push the code to the remote repository using git push -u origin master
+
+Created a new repo called "linkedIn20230202"
+
+git remote add origin https://github.com/onochieu/linkedIn20230202.git
+git add README.md
+git commit -m "first commit to add the README.md file"
+git branch -M main
+git branch
+git push -u origin main
